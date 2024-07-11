@@ -1,0 +1,112 @@
+
+/* universel (all text decoration) */
+*{
+    text-decoration: none;
+    max-width: 0 auto;
+}
+/* navbar style start */
+.navbar{
+    background-color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    
+
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 0 auto;
+    
+}
+
+header{
+    position: sticky;
+    top:0px;
+}
+
+.logo>a{
+    font-size: 35px;
+    font-weight:800;
+    color:white;    
+}
+
+ul>li{
+   
+    
+    list-style: none;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 25px;
+    /* border: 2px solid rgb(53, 9, 60); */
+}
+
+/* navbar style end */
+
+
+/* navbar home about contact color start */
+
+ul>li>a{
+    color:white;
+    font-weight:bold;
+    font-size: 20px;
+
+}
+/* navbar home about contact color end */
+
+
+/* navbar home about contact hover style */
+
+ul>li>a:hover{
+    background-color: black;
+    
+}
+
+/* navbar home about contact hover style */
+
+/*btn style start   */
+.nav-btn{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+}
+
+
+button>a{
+    color:white;
+    font-weight: bold;
+}
+/*btn style hover start */
+button:hover{
+    background-color: blueviolet;
+}
+
+button>a:hover{
+    color:red;
+}
+
+/*btn style end total*/
+
+/* Main part start here */
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+
+}
+.cpu img{
+    width: 100%;
+}
+
+
+.cpu{
+    border:2px solid red;
+    padding:10px;
+    border-radius: 10px;
+}
