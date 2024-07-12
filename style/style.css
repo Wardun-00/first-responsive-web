@@ -112,6 +112,15 @@ button>a:hover{
     border-radius: 10px;
 }
 
+.nav-container>ul>li:hover{
+    padding: 8px;
+}
+
+.cpu:hover{
+   margin: 15px;
+   padding: 15px;
+   background-color: rgb(199, 159, 235);
+}
 /* smaller device responcive start */
 
 @media screen and (max-width: 576px){
